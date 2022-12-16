@@ -1,0 +1,53 @@
+header {
+    background-color: rgb(235, 196, 137);
+    margin: 10px;
+}
+body {
+    background-color: rgb(243, 204, 159);
+    margin: 10px;
+}
+nav ul  {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 100%;
+
+}
+h1 {
+color: rgb(153, 92, 38);
+text-align: center;
+font-family: arial;
+font-size: 35px;
+}
+nav ul li a {
+    color: rgb(253, 249, 230);
+    font-family: arial;
+    font-size: 30px;
+}
+nav ul li a :hover{
+    cursor: pointer; 
+    color: rgb(153, 92, 38);
+}
+p{ 
+    font-size: 30px;
+    color: rgb(70, 43, 8);
+    text-align: center;
+    font-family: arial;
+}
+img{
+    width: 400px;
+   float: center;
+}
+h1 :hover{
+    animation-name: cores;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cores{
+    0%{color: aquamarine;}
+    25%{color: lightgreen;}
+    50%{color: rgb(253, 246, 141);}
+    75%{color: rgb(248, 130, 100);}
+    100%{color: rgb(203, 109, 226);}
+}

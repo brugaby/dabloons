@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(208, 158, 255);
+}
+h1{
+    color: blueviolet;
+    font-family: arial;
+    text-align: center;
+}
+h2{
+    color: rgb(103, 7, 192);
+    font-family: Arial;
+}
+p{
+    color: rgb(3, 3, 26);
+    font-family: arial;
+}
+.imagens{
+    width: 100px;
+}
